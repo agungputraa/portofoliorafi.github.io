@@ -171,7 +171,7 @@
     const message = document.getElementById('Pesan').value;
     
     const subject = `Contact from ${name}`;
-    const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+    const body = `Name: ${name}\nEmail: ${email}\n\nMessage:${message}`;
     
     window.location.href = `mailto:agungofficialdev@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
